@@ -3,30 +3,35 @@ font-family = JetBrainsMono Nerd Font Mono
 
 # keybind
 keybind = global:ctrl+grave_accent=toggle_quick_terminal
+
 ## navigation
-keybind = ctrl+b=previous_tab
-keybind = ctrl+n=next_tab
-keybind = ctrl+shift+b=move_tab:-1
-keybind = ctrl+shift+n=move_tab:+1
+keybind = ctrl+d>p=previous_tab
+keybind = ctrl+d>n=next_tab
+keybind = ctrl+d>shift+p=move_tab:-1
+keybind = ctrl+d>shift+n=move_tab:+1
+keybind = ctrl+d>c=new_tab
 
 ## split
-keybind = ctrl+;=new_split:up
-keybind = ctrl+'=new_split:right
+keybind = ctrl+d>;=new_split:up
+keybind = ctrl+d>\=new_split:right
+
 ## focus
-keybind = ctrl+j=goto_split:bottom
-keybind = ctrl+k=goto_split:top
-keybind = ctrl+h=goto_split:left
-keybind = ctrl+l=goto_split:right
+keybind = ctrl+d>j=goto_split:bottom
+keybind = ctrl+d>k=goto_split:top
+keybind = ctrl+d>h=goto_split:left
+keybind = ctrl+d>l=goto_split:right
+
 ## resize
-keybind = ctrl+shift+j=resize_split:bottom
-keybind = ctrl+shift+k=resize_split:top
-keybind = ctrl+shift+h=resize_split:left
-keybind = ctrl+shift+l=resize_split:right
+keybind = ctrl+d+shift>j=resize_split:down,50
+keybind = ctrl+d+shift>k=resize_split:up,50
+keybind = ctrl+d+shift>h=resize_split:left,50
+keybind = ctrl+d+shift>l=resize_split:right,50
+keybind = ctrl+d>e=equalize_splits
 
 quick-terminal-position = left
 
 # theme
-theme = catppuccin-frappe
+theme = adventure
 
 background-opacity = 0.7
 background-blur-radius = 20
