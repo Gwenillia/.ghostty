@@ -1,0 +1,34 @@
+# fonts
+font-family = JetBrainsMono Nerd Font Mono
+
+# keybind
+keybind = global:ctrl+grave_accent=toggle_quick_terminal
+## navigation
+keybind = ctrl+b=previous_tab
+keybind = ctrl+n=next_tab
+keybind = ctrl+shift+b=move_tab:-1
+keybind = ctrl+shift+n=move_tab:+1
+
+## split
+keybind = ctrl+;=new_split:up
+keybind = ctrl+'=new_split:right
+## focus
+keybind = ctrl+j=goto_split:bottom
+keybind = ctrl+k=goto_split:top
+keybind = ctrl+h=goto_split:left
+keybind = ctrl+l=goto_split:right
+## resize
+keybind = ctrl+shift+j=resize_split:bottom
+keybind = ctrl+shift+k=resize_split:top
+keybind = ctrl+shift+h=resize_split:left
+keybind = ctrl+shift+l=resize_split:right
+
+quick-terminal-position = left
+
+# theme
+theme = catppuccin-frappe
+
+background-opacity = 0.7
+background-blur-radius = 20
+
+macos-titlebar-style = tabs
