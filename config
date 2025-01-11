@@ -5,28 +5,28 @@ font-family = JetBrainsMono Nerd Font Mono
 keybind = global:ctrl+grave_accent=toggle_quick_terminal
 
 ## navigation
-keybind = ctrl+d>p=previous_tab
-keybind = ctrl+d>n=next_tab
-keybind = ctrl+d>shift+p=move_tab:-1
-keybind = ctrl+d>shift+n=move_tab:+1
-keybind = ctrl+d>c=new_tab
+keybind = ctrl+e>p=previous_tab
+keybind = ctrl+e>n=next_tab
+keybind = ctrl+e>shift+p=move_tab:-1
+keybind = ctrl+e>shift+n=move_tab:+1
+keybind = ctrl+e>c=new_tab
 
 ## split
-keybind = ctrl+d>]=new_split:up
-keybind = ctrl+d>\=new_split:right
+keybind = ctrl+e>]=new_split:up
+keybind = ctrl+e>\=new_split:right
 
 ## focus
-keybind = ctrl+d>j=goto_split:bottom
-keybind = ctrl+d>k=goto_split:top
-keybind = ctrl+d>h=goto_split:left
-keybind = ctrl+d>l=goto_split:right
+keybind = ctrl+e>j=goto_split:bottom
+keybind = ctrl+e>k=goto_split:top
+keybind = ctrl+e>h=goto_split:left
+keybind = ctrl+e>l=goto_split:right
 
 ## resize
-keybind = ctrl+d+shift>j=resize_split:down,50
-keybind = ctrl+d+shift>k=resize_split:up,50
-keybind = ctrl+d+shift>h=resize_split:left,50
-keybind = ctrl+d+shift>l=resize_split:right,50
-keybind = ctrl+d>e=equalize_splits
+keybind = ctrl+e+shift>j=resize_split:down,50
+keybind = ctrl+e+shift>k=resize_split:up,50
+keybind = ctrl+e+shift>h=resize_split:left,50
+keybind = ctrl+e+shift>l=resize_split:right,50
+keybind = ctrl+e>e=equalize_splits
 
 quick-terminal-position = left
 
@@ -36,4 +36,4 @@ theme = adventure
 background-opacity = 0.7
 background-blur-radius = 20
 
-macos-titlebar-style = tabs
+macos-titlebar-style = hidden
