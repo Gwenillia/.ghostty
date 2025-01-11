@@ -31,7 +31,7 @@ keybind = ctrl+e>e=equalize_splits
 quick-terminal-position = left
 
 # theme
-theme = adventure
+theme = catppuccin-mocha
 
 background-opacity = 0.7
 background-blur-radius = 20
