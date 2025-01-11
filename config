@@ -12,7 +12,7 @@ keybind = ctrl+d>shift+n=move_tab:+1
 keybind = ctrl+d>c=new_tab
 
 ## split
-keybind = ctrl+d>;=new_split:up
+keybind = ctrl+d>]=new_split:up
 keybind = ctrl+d>\=new_split:right
 
 ## focus
