@@ -28,6 +28,10 @@ keybind = ctrl+e+shift>h=resize_split:left,50
 keybind = ctrl+e+shift>l=resize_split:right,50
 keybind = ctrl+e>e=equalize_splits
 
+## maximize pane
+keybind = ctrl+e>z=toggle_split_zoom
+
+# quick term 
 quick-terminal-position = left
 
 # theme
