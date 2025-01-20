@@ -1,5 +1,6 @@
 # fonts
 font-family = JetBrainsMono Nerd Font Mono
+font-size = 20
 
 # keybind
 keybind = global:ctrl+grave_accent=toggle_quick_terminal
